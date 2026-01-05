@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 
 # ============= CONFIGURATION =============
 # BOT TOKEN - Get from environment variable
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = os.environ.get('8419010897:AAGAC_Eo9DY99tV2JNtnaJMYGM5ocJ2lQ7E')
 DEVELOPER_USERNAME = "@vishalxtg45"
 CHANNEL_USERNAME = "@vishalxnetwork4"
 

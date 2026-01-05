@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 
 # ============= CONFIGURATION =============
 # BOT TOKEN - Get from environment variable
-BOT_TOKEN = os.environ.get('8419010897:AAGAC_Eo9DY99tV2JNtnaJMYGM5ocJ2lQ7E')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 DEVELOPER_USERNAME = "@vishalxtg45"
 CHANNEL_USERNAME = "@vishalxnetwork4"
 
@@ -48,6 +48,8 @@ if not BOT_TOKEN:
     print("Error: BOT_TOKEN environment variable not set!")
     print("Please set BOT_TOKEN in Render environment variables")
     sys.exit(1)
+
+print(f"BOT_TOKEN found: {BOT_TOKEN[:10]}...")  # Debug line
 
 # ============= PREMIUM SUBDOMAIN APIS (100+ Sources) =============
 SUBDOMAIN_SOURCES = [
